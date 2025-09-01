@@ -1,0 +1,21 @@
+.yellow {
+    background-color: yellow;
+}
+
+.black {
+    background-color: rgb(0, 0, 0);
+    color: lab(100% 0.01 -0.01);
+}
+
+/*
+Can do this too, but we can just list multiple classes as the selector 
+.buttons {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+} */
+
+.yellow,
+.black {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
